@@ -1,0 +1,7 @@
+/.DS_Store
+
+#env files from venv folder not needed
+
+demo/venv
+
+demo/.idea
