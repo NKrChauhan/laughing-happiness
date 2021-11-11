@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include("apiDrfDocker.urls"), name="apiDrfDocker"),
+    path('api/', include("apiDrfDocker.urls", namespace="apiDrfDocker")),
 ]
